@@ -1,0 +1,38 @@
+.welcome-page {
+    width: 80%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.slogan {
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1rem;
+}
+
+.welcome-page button {
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
+.login {
+    background-color: #00B7FF;
+    color: #fff;
+    border: none;
+}
+
+.signup {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #00000043;
+}
